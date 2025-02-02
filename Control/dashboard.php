@@ -58,5 +58,6 @@ $con->close();
             <li><button onclick="window.location.href='mCustomer.php'">Manage Customers</button></li>
         </ul>
     </section>
+    <script src="../js/dashboard.js"></script>
 </body>
 </html>

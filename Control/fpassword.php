@@ -105,4 +105,5 @@ $con->close();
 
     <p>Remember your password? <a href="O_c_login.php">Log in here</a>.</p>
 </body>
+<script src="../js/fpassword.js"></script>
 </html>

@@ -107,5 +107,6 @@ $con->close();
             </div>
         </div>
     </div>
+    <script src="../js/O_c_login.js"></script>
 </body>
 </html>

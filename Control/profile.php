@@ -118,5 +118,6 @@ $con->close();
         <button onclick="window.location.href='dashboard.php'">Dashboard</button>
         <button onclick="window.location.href='O_c_login.php'">Logout</button>
     </div>
+    <script src="../js/profile.js"></script>
 </body>
 </html>
