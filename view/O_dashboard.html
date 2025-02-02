@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <h1>Welcome to the Owner Dashboard</h1>
+    <section>
+        <h2>System Overview</h2>
+        <ul>
+            <li>Total Admin Requests: <span id="admin-requests-count"><?php echo htmlspecialchars($admin_requests_count);
+            ?></span></li>
+            <li>Total Employees: <span id="employee-count"><?php echo htmlspecialchars($employee_count);
+            ?></span></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Owner Control</h2>
+        <ul>
+        <li><button onclick="window.location.href='owner_profile.php'">Profile</button></li>
+            <li><button onclick="window.location.href='admin_management.php'">Admin Management</button></li>
+            <li><button onclick="window.location.href='info.php'">Information Desk</button></li>
+            <li><button onclick="window.location.href='admin_requests.php'">Admin Requests</button></li>
+            <li><button onclick="window.location.href='employee_data.php'">Employee Information</button></li>
+        </ul>
+    </section>
+</body>
+</html> 
